@@ -1,0 +1,22 @@
+{
+  "name": "47",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon",
+    "board" : "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "figlet": "^1.11.0",
+    "nodemon": "^3.1.14",
+    "typescript": "^6.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}
