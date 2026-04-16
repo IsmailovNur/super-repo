@@ -1,0 +1,13 @@
+mkdir projects
+  cd projects
+    mkdir my_project
+      cd my_project
+        mkdir -p directory1/subdirectory1
+        mkdir directory2
+        touch directory2/hello.txt
+	echo "Hello from JS" > directory2/hello.txt
+	mkdir -p directory3/subdirectory2
+  cd ../../
+  git init
+  git add .
+  git commit -m "Задание 1"
